@@ -71,6 +71,7 @@ const inviteCodes = [`P04z54XCjVWnYaS5u2ak7ZCdan1Bdd2GGiWvC6_uERj`, 'P04z54XCjVW
       await TotalBean();
       console.log(`\n******开始【京东账号${$.index}】${$.nickName || $.UserName}*********\n`);
       if ($.nickName === 'Ni-daYe' || $.UserName === 'Ni-daYe'){
+        console.log(`\n【${$.nickName || $.UserName}】跳过\n`);
         continue
       }
       if (!$.isLogin) {
